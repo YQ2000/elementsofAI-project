@@ -29,8 +29,6 @@ The motivation is to improve employee experience, streamline internal communicat
 * IT: Password resets, software access, troubleshooting guides  
 * General: Compliance rules, office policies, onboarding info  
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Chatbot_icon.png" width="300">  
-
 ## Data sources and AI methods  
 
 The chatbot is powered by:  
@@ -54,9 +52,3 @@ Future improvements may include:
 * Integration with HRIS and IT service management systems  
 * Voice-enabled interaction  
 * Analytics to track common employee questions and improve policy communication  
-
-## Acknowledgments  
-
-* Inspired by workplace AI assistants and HR chatbots  
-* Special thanks to the Building AI course by Reaktor Innovations and the University of Helsinki  
-* Icons and images used under open licenses (example: [Chatbot icon](https://commons.wikimedia.org/wiki/File:Chatbot_icon.png) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))  
