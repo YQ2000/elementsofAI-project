@@ -1,79 +1,62 @@
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
+# Company Q&A Chatbot  
 
-# Painting with AI
+Final project for the Building AI course  
 
-Final project for the Building AI course
+## Summary  
 
-## Summary
+This project is an AI-powered Q&A chatbot designed to help employees quickly find answers to questions about company policies, HR processes, and IT issues. The chatbot provides suggestions based on company guidelines and internal files, making information access faster and easier.  
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+## Background  
 
+Employees often struggle to find the right information across multiple sources, such as HR manuals, IT FAQs, or policy documents. This can cause delays, reduce productivity, and increase repeated queries to HR or IT teams.  
 
-## Background
+This chatbot helps by:  
+* Centralizing company knowledge into one easy-to-use tool  
+* Providing instant answers, reducing wait time for HR/IT responses  
+* Supporting employees across regions and time zones  
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+The motivation is to improve employee experience, streamline internal communication, and reduce the workload of HR and IT support teams.  
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+## How is it used?  
 
+1. Employees access the chatbot via web or company intranet.  
+2. They type in a question (e.g., *“How many annual leave days do I have?”* or *“How do I reset my email password?”*).  
+3. The chatbot searches company guidelines, HR documents, and IT policies.  
+4. It provides a clear, AI-generated answer or directs the user to the correct resource.  
 
-## How is it used?
+**Example use cases:**  
+* HR: Leave policies, benefits, payroll cut-off dates  
+* IT: Password resets, software access, troubleshooting guides  
+* General: Compliance rules, office policies, onboarding info  
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Chatbot_icon.png" width="300">  
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+## Data sources and AI methods  
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+The chatbot is powered by:  
+* **Data sources**: Internal company policies, HR manuals, IT support FAQs, compliance guidelines  
+* **AI methods**:  
+  - Natural Language Processing (NLP) to understand employee questions  
+  - Information retrieval and semantic search to find relevant answers  
+  - Context-based response generation to align with company policy  
 
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
+## Challenges  
 
-   totPop = sum(pop)
-   totFish = sum(fishers)
+* **Accuracy**: AI responses must align strictly with official company policies to avoid misinformation.  
+* **Confidentiality**: Sensitive employee or company data should not be exposed.  
+* **Maintenance**: Policies and guidelines frequently change, requiring regular updates to the data sources.  
+* **Limitations**: The chatbot cannot replace human HR or IT judgment in complex or exceptional cases.  
 
-   # write your solution here
+## What next?  
 
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
+Future improvements may include:  
+* Multi-language support for global employees  
+* Integration with HRIS and IT service management systems  
+* Voice-enabled interaction  
+* Analytics to track common employee questions and improve policy communication  
 
-main()
-```
+## Acknowledgments  
 
-
-## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-
-## Challenges
-
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
-
-## What next?
-
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
-
-## Acknowledgments
-
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* Inspired by workplace AI assistants and HR chatbots  
+* Special thanks to the Building AI course by Reaktor Innovations and the University of Helsinki  
+* Icons and images used under open licenses (example: [Chatbot icon](https://commons.wikimedia.org/wiki/File:Chatbot_icon.png) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))  
